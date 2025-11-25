@@ -1,0 +1,51 @@
+# ============================
+#  Node.js / JavaScript
+# ============================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# ============================
+#  Build / Output
+# ============================
+
+dist/
+build/
+out/
+.vite/
+
+# ============================
+#  Ambiente / Configurações
+# ============================
+
+.env
+.env.local
+.env.*.local
+
+# ============================
+#  Editor / IDE
+# ============================
+
+.vscode/
+.idea/
+*.swp
+
+# ============================
+#  Sistema Operacional
+# ============================
+
+.DS_Store
+Thumbs.db
+
+# ============================
+#  Docker
+# ============================
+
+*.pid
+*.seed
+docker-data/
