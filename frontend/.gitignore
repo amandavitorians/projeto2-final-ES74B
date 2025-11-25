@@ -1,0 +1,42 @@
+@"
+# Node / build
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / secrets
+.env
+.env.* 
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Logs e cobertura de testes
+*.log
+coverage/
+.nyc_output/
+
+# Caches / temporários
+.cache/
+.parcel-cache/
+.tmp/
+tmp/
+
+# Ferramentas comuns / bundlers
+.pnp.*
+.sass-cache/
+
+# Evita arquivos swap
+*.swp
+
+# Garantir que a pasta de submissão seja incluída
+!codigo-fontes/
+!codigo-fontes/**
+"@ | Out-File -FilePath .gitignore -Encoding utf8
